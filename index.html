@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elaine - Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./assets/borboleta-logo-sem-fundo.png" alt="">
+                <h2>ElaineDev</h2>
+            </div>
+            <div class="nav-hamb"> 
+                <img onclick="changeMenu()" src="./assets/hamburger-sem-fundo.png" alt="">
+            </div>
+        </nav>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="#principal">home</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#projects">projetos</a></li>
+                <li><a href="">contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-----------------Section principal-------------->
+    <section id="principal">
+        <div class="principal-container">
+            <div class="principal-titulo">
+                <h1>Elaine <span>Tavares</span></h1>
+                <h2>Desenvolvedora Front End.</h2>
+            </div>
+            <div class="principal-imagem">
+                <img src="./assets/html-css-javascript-sem-fundo.png" alt="">
+            </div>
+        </div>
+        <div class="principal-container-codigo">
+            <img src="./assets/codigo-front.jpg" alt="">
+        </div>
+    </section>
+    <!------------End Section principal-------------->
+
+    <!------------Section about-------------->
+    <section id="about">
+        <div class="about-container">
+            <div>
+                <h2>Sobre mim.</h2>
+            </div>
+            <div>
+                <img src="./assets/foto-sem-fundo.png" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eius sequi debitis voluptatum, laudantium magni quis alias eaque delectus neque placeat suscipit explicabo beatae. Aspernatur saepe nam quis cum veritatis.</p>
+            </div>
+            <div class="about-botao">  
+                <button>Currículo</button>
+            </div>
+        </div>
+    </section>
+    <!------------End Section about-------------->
+
+     <!------------Section projects-------------->
+     <section id="projects">
+        <h2>Projetos</h2>
+        <div class="projects-container">
+
+            <div class="projects-card">
+                <div class="card-imagem">
+                    <img src="./assets/designSystems.png" alt="">
+                </div>
+                <div class="projects-botao">
+                    <p>Design Systems</p>
+                    <button><a href="https://designsystemsprojeto3.vercel.app/" target="_blank">Site</a></button>
+                </div>
+            </div>
+
+            <div class="projects-card">
+                <div class="card-imagem">
+                    <img src="./assets/elaineFlix.png" alt="">
+                </div>
+                <div class="projects-botao">
+                    <p>Elaine Flix</p>
+                    <button><a href="https://elaine-flix.vercel.app/" target="_blank">Site</a></button>
+                </div>
+            </div>
+
+            <div class="projects-card">
+                <div class="card-imagem">
+                    <img src="./assets/ballecoffee.png" alt="">
+                </div>
+                <div class="projects-botao">
+                    <p>Balle Coffee</p>
+                    <button><a href="https://balle-coffee.vercel.app/" target="_blank">Site</a></button>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+     <!------------End Section projects-------------->
+
+    <!------------Section Contact-------------->
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
