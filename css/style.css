@@ -59,6 +59,7 @@ nav{
     justify-content: space-between;
     align-items: center;   
     /*border: 1px solid yellow;*/
+    gap: 50px;
 }
 
 #navMenu{
