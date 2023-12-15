@@ -98,7 +98,6 @@ nav{
 #principal{
     padding: 20px 100px;
     width: 100vw;
-    height: 100vh;
     /*border: 1px solid white;*/
     display: flex;
     flex-direction: column;
@@ -487,12 +486,10 @@ input{
 
 
  @media screen and (min-width: 768px) and (max-width:992px) {
-   #principal{
-    height: 120vh;
-   }
-
    .card-detalhes{
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
    }
 }
