@@ -185,7 +185,7 @@ h1 {
 }
 
 #about{
-    padding: 90px 100px;
+    padding: 90px 80px;
     width: 100vw;
     /*border: 1px solid white;*/
     padding-bottom: 50px;
@@ -352,7 +352,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
 
 #contacts h2{
@@ -365,15 +365,15 @@ h1 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     gap: 10px;
 }
@@ -445,6 +445,7 @@ input{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-left:-135px;
 }
 
 
