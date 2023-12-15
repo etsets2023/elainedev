@@ -37,7 +37,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 5px;
 }
 
@@ -177,7 +177,7 @@ h1 {
 
  @keyframes written_texti{
     100% {
-        width: 160%;
+        width: 100%;
     }
  }
 
@@ -484,3 +484,15 @@ input{
     bottom: 5px;
     right: 5px;
  }
+
+
+ @media screen and (min-width: 768px) and (max-width:992px) {
+   #principal{
+    height: 120vh;
+   }
+
+   .card-detalhes{
+    display: flex;
+    flex-direction: column;
+   }
+}
